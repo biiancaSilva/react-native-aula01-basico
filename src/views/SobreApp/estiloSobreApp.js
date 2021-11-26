@@ -1,23 +1,35 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet} from 'react-native';
 
-const estiloInicial = StyleSheet.create({
+const estiloSobreApp = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#000000',
+        backgroundColor: '#800000',
         justifyContent: 'center',
         alignItems: 'center',
-    },   
+    },
+    
     borda: {
-        backgroundColor: '#1C1C1C',
+        backgroundColor: '#DCDCDC',
         width: '80%',
-        height: '40%',
+        height: '50%',
         borderRadius: 10,
     },
+
+    texto01: {
+        fontSize: 25,
+        color: '#000000',
+        fontWeight: 'bold',
+        textAlign: "center",
+        padding: 10
+    },
+
     texto: {
         fontSize: 20,
-        color: '#FFFFFF',
+        color: '#000000',
         fontWeight: 'bold',
         padding: 10,
+        width: '90%',
+        height: '90%',
         textAlign: "center",
     },
     botaoContainer: {
@@ -39,5 +51,4 @@ const estiloInicial = StyleSheet.create({
         fontWeight:'bold'
     },
 });
-
-export default estiloInicial;
+export default estiloSobreApp;

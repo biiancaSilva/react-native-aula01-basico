@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View, TouchableOpacity } from 'react-native';
 import estiloInicial from './estiloInicial';
 
-function inicial() { 
+function Inicial() { 
 
     return (
         <View style={estiloInicial.container}>
@@ -11,23 +11,14 @@ function inicial() {
                 <Text style={estiloInicial.texto}>Inicial</Text>
 
                 <TouchableOpacity style={estiloInicial.botaoContainer} > 
-                    <Text style={estiloInicial.botaoTexto}>Sobre o App</Text> 
+                    <Text style={estiloInicial.botaoTexto}>Sobre</Text> 
                 </TouchableOpacity>
 
                <TouchableOpacity style={estiloInicial.botaoContainer} >
                     <Text style={estiloInicial.botaoTexto}>Detalhes</Text>
                 </TouchableOpacity>
-
-                <TouchableOpacity style={estiloInicial.botaoContainer} >
-                    <Text style={estiloInicial.botaoTexto}>História</Text>
-                </TouchableOpacity>
-
-                <TouchableOpacity style={estiloInicial.botaoContainer} >
-                    <Text style={estiloInicial.botaoTexto}>Notícias</Text>
-                </TouchableOpacity>
-
             </View>
         </View>
     )
 }
-export default inicial;
+export default Inicial;

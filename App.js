@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import sobreApp from './src/views/sobreApp/sobreApp';
+import detalhe from './src/views/Detalhes/detalhe';
 
 export default function App() {
   return (
-      <sobreApp/>
+      <detalhe/>
   );
 }
