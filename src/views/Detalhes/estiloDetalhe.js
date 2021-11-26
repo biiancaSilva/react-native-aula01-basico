@@ -50,15 +50,7 @@ const estiloDetalhe = StyleSheet.create({
         height: '90%',
         textAlign: "justify",
     },
-    texto04: {
-        fontSize: 20,
-        color: '#000000',
-        fontWeight: 'bold',
-        padding: 10,
-        width: '90%',
-        height: '90%',
-        textAlign: "center",
-    },
+    
     botaoContainer: {
         marginTop: 20,
         marginBottom: 20,

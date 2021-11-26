@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View, TouchableOpacity } from 'react-native';
 import estiloDetalhe from './estiloDetalhe';
 
-function detalhe() {
+function Detalhe() {
     return (
         
         <View style={estiloDetalhe.container}>
@@ -44,4 +44,4 @@ function detalhe() {
 </View>
 )
 }
-export default detalhe;
+export default Detalhe;
