@@ -11,7 +11,7 @@ const estiloSobreApp = StyleSheet.create({
     borda: {
         backgroundColor: '#DCDCDC',
         width: '80%',
-        height: '50%',
+        height: '35%',
         borderRadius: 10,
     },
 
@@ -28,7 +28,7 @@ const estiloSobreApp = StyleSheet.create({
         color: '#000000',
         fontWeight: 'bold',
         padding: 10,
-        width: '90%',
+        width: '100%',
         height: '90%',
         textAlign: "center",
     },

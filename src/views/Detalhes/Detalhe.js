@@ -2,7 +2,11 @@ import React from 'react';
 import { Text, View, TouchableOpacity } from 'react-native';
 import estiloDetalhe from './estiloDetalhe';
 
-function Detalhe() {
+function Detalhe({ navigation }) {
+
+    const voltar = () => {
+    navigation.goBack();
+    }
     return (
         
         <View style={estiloDetalhe.container}>
@@ -36,7 +40,7 @@ function Detalhe() {
             posteriormente e também tem um significado especial. As duas douradas, gravadas no escudo em 1955
             e, posteriormente, no uniforme em 1997, representam os recordes mundiais e olímpicos</Text>
 
-<TouchableOpacity style={estiloDetalhe.botaoContainer}>
+<TouchableOpacity style={estiloDetalhe.botaoContainer} onPress={voltar}>
    <Text style={estiloDetalhe.botaoTexto}>Voltar</Text>
 </TouchableOpacity>
 

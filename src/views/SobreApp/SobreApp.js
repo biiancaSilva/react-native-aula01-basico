@@ -2,7 +2,11 @@ import React from 'react';
 import { Text, View, TouchableOpacity, ImageBackground } from 'react-native';
 import estiloSobreApp from './estiloSobreApp';
 
-function SobreApp() {
+function SobreApp({ navigation }) {
+
+    const voltar = () => {
+    navigation.goBack();
+    }
 
     return(
 
@@ -15,7 +19,7 @@ function SobreApp() {
               do seu estádio é "Estádio Cícero Pompeu de Toledo" mais conhecido como Morumbi. Seus 
               principais rivais são: O Corinthians, o Palmeiras e o Santos</Text>
 
-                <TouchableOpacity style={estiloSobreApp.botaoContainer}>
+                <TouchableOpacity style={estiloSobreApp.botaoContainer} onPress={voltar}>
                    <Text style={estiloSobreApp.botaoTexto}>Voltar</Text> 
                 </TouchableOpacity>  
             </View>
